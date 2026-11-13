@@ -1,0 +1,28 @@
+{
+  "business": {
+    "address": "Hasco Towers, 2nd floor, A203",
+    "city": "",
+    "directions": "",
+    "hours": "Saturday–Thursday\n8:00 AM–5:00 PM",
+    "isConfirmed": false
+  },
+  "contact": {
+    "phone": "",
+    "whatsapp": "",
+    "email": "",
+    "socials": {
+      "facebook": "",
+      "instagram": "",
+      "tiktok": "",
+      "youtube": ""
+    }
+  },
+  "menu": [
+    { "id": "espresso", "name": "Espresso", "note": "A short, concentrated coffee with a rich finish.", "price": "" },
+    { "id": "americano", "name": "Americano", "note": "Espresso softened with hot water.", "price": "" },
+    { "id": "cappuccino", "name": "Cappuccino", "note": "Espresso, steamed milk, and a light layer of foam.", "price": "" },
+    { "id": "flat-white", "name": "Flat white", "note": "Espresso with silky steamed milk.", "price": "" },
+    { "id": "latte", "name": "Latte", "note": "Espresso and smooth steamed milk, made for a longer sip.", "price": "" },
+    { "id": "mocha", "name": "Mocha", "note": "Espresso, chocolate, and steamed milk in one comforting cup.", "price": "" }
+  ]
+}

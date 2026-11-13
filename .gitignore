@@ -1,0 +1,33 @@
+# ---- Secrets: never commit ------------------------------------------------
+# Real keys live only in .env.local (and the host's environment variables).
+.env*
+!.env.example
+# Owner password hash and session key, plus any backups of them.
+data/admin-auth*.json
+data/admin-session*.key
+*.pem
+*.key
+
+# ---- Dependencies and build output ---------------------------------------
+node_modules/
+.next/
+out/
+build/
+*.tsbuildinfo
+next-env.d.ts
+
+# ---- Logs and local tooling ----------------------------------------------
+*.log
+npm-debug.log*
+.vercel/
+.claude/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Internal working notes (not for the public repo) --------------------
+PROJECT_HANDOFF.md
+
+# ---- Temporary files -----------------------------------------------------
+public/tmp-*
+*.backup-*
